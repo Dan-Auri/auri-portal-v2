@@ -26,12 +26,13 @@ export default function MembersPage() {
       </p>
 
       <a
-        href="/auri-book.pdf"
-        download
-        className="px-6 py-3 bg-white text-black rounded-lg shadow hover:bg-gray-300 transition mb-10"
-      >
-        📘 Download The Awakening of Auri
-      </a>
+  href="https://firebasestorage.googleapis.com/v0/b/auri-portal.firebasestorage.app/o/auri-book.pdf?alt=media&token=cbbb07f6-1ee5-44e1-8de5-88d826547d4b"
+  download
+  className="mt-8 inline-block bg-white text-black px-6 py-3 rounded-xl shadow-md hover:bg-gray-200 transition text-lg"
+>
+  📘 Download The Awakening of Auri
+</a>
+
 
       <p className="text-sm text-gray-500 text-center italic">✨ More Coming Soon ✨</p>
     </main>
