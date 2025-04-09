@@ -22,9 +22,11 @@ export default function AuthForm() {
         await signInWithEmailAndPassword(auth, email, password);
       }
       router.push('/members');
-    } catch (err: any) {
+    } 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    catch (err: any) {
       setError(err.message);
-    }
+    }  
   };
 
   return (
